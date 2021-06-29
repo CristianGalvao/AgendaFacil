@@ -1,0 +1,357 @@
+<!DOCYTIPE html>
+    <html>
+
+    <head>
+        <!-- https://www.autotracer.org/ -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="É uma loja independente de venda de tênis.">
+        <meta name="keywords" content="Nike, Adidas, Tênis, DC">
+        <meta name="robots" content="index, nofollow">
+        <meta name="author" content="Cristian Galvão, Camila Melo, Marcelo Boa Morte ">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            crossorigin="anonymous">
+        <!--Boostrap -->
+        <link rel="stylesheet" href="public/css/estilo.css">
+        <link rel="stylesheet" href="public/css/breakpoint.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="icone.png">
+        <link rel="icon" href="public/image/icone.png">
+        <title>Carrinho</title>
+    </head>
+
+
+    <body>
+
+        <header>
+
+            <section class="menu">
+
+                <span class="botaoMenu"><i class="fas fa-align-left"></i></span>
+
+                <span class="logo"><img src="public/image/logo.png"></span>
+
+                <span class="pesquisaMobile"><i class="fas fa-search"></i></span>
+
+                <span class="search">
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Pesquise aqui" id="pesquisa">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </span>
+
+                <span class="venda-menu">
+
+                    <a href="C:\Users\Marcelo Roberto\Desktop\Etec\PW1\AtivadeFinalPw\login\index.html"><h1>Entrar</h1></a>
+                    <a href="C:\Users\Marcelo Roberto\Desktop\Etec\PW1\AtivadeFinalPw\cadastro-ofi\index.html"><h1>Cadastrar</h1></a>
+                    <h1>Contato</h1>
+                    <h1>Noticias</h1>
+
+                </span>
+
+                <span class="icons">
+
+                    <i class="fas fa-shopping-cart" id="icone-menu"></i>
+                    <i class="far fa-heart" id="icone-menu"></i>
+                    <i class="far fa-bell" id="icone-menu"></i>
+                    <i class="far fa-user" id="icone-menu"></i>
+
+                </span>
+
+            </section>
+
+
+
+        </header>
+
+        <nav class="segundoMenu">
+
+            <ul class="segundoMenuLargura">
+
+                <span class="logoMobile">
+                    <img src="public/image/logo.png">
+                    <span class="botaoFechar"><i class="far fa-times-circle"></i></span>
+                </span>
+
+                <li id="ps">Ofertas</li>
+
+
+                <li id="xbox">Marcas</li>
+
+                <li id="switch">Masculino</li>
+
+                <li id="pc">Feminino</li>
+                <li id="mobile">Infantil</li>
+
+                <li>Acessórios</li>
+                <li>Novidades</li>
+                <li>Roupas</li>
+
+
+            </ul>
+
+        </nav>
+
+        <main>
+
+            <div class="faixa-frete">
+                <h10>Parabéns! Você ganhou frete grátis em itens vendidos pela MB. *Consulte as regras de acordo com a sua região.</h10>
+            </div>
+
+            
+                <section class="carrinho">
+
+                    <div class="meu-carrinho">
+
+                        <h11>Meu Carrinho</h11>
+
+                        <div class="produto-carrinho">
+
+                            <img src="public/image/mb/pd3.jpg" alt="">
+                            
+                            <div class="texto-carrinho">
+
+                    <div class="h12-icone-lixeira"><h12>Tênis Nike Nike Dunk - Masculino</h12><i class="fas fa-trash-alt" style="margin-left: 20px;color: grey;"></i></div>
+                                
+                                <p class="p-carrinho">Ref.:HZM-5209-912-34</p>
+                                <p class="p-carrinho">Vendido e entregue por SEDEX</p>
+                                <p class="p-carrinho">Cor: Branco+Branco</p>
+                                <p class="p-carrinho">Tamanho: 41</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="quantidade-preco">
+
+                            
+                            <h12>Quantidade: <input type="number" id="numero-quantidade"></h12>
+                            <h12 style="color: grey;" class="h12-js">R$ 1.800,00</h12>
+
+                        </div>
+
+                            <h12>Simule frete e prazo de entrega</h12>
+
+                            <div class="endereco">
+                            <input type="text" placeholder="Digite seu CEP" id="cep">
+                            <button id="calcular">Calcular</button>
+
+
+                            
+
+                        </div>
+
+                        <h12 style="color: grey;font-size: 1em;">Não sei meu CEP</h12>
+
+                    </div>
+                    <div class="resumo-compra">
+
+                        <h11>Resumo da Compra</h11>
+
+                        <div class="produto-resumo">
+
+                            <div class="texto-resumo">
+
+                                <h12>Subtotal (1 item)</h12>
+                                
+
+                            </div>
+
+                            <h12 style="color: grey;margin-left: 50px;margin-bottom: 20px;">R$ 1.800,00</h12>
+                           
+
+                        </div>
+
+                        <div class="produto-resumo">
+
+                            <div class="texto-resumo">
+
+                                <h12>Frete SEDEX</h12>
+                                
+
+                            </div>
+
+                            <h12 style="color: purple;margin-left: 50px;margin-bottom: 20px;">Grátis</h12>
+                           
+
+                        </div>
+
+                        
+                        <div class="produto-resumo">
+
+                            <div class="texto-resumo">
+
+                                <h12>Descontos</h12>
+                                
+
+                            </div>
+
+                            <h12 style="color: purple;margin-left: 50px;margin-bottom: 20px;">R$0,00</h12>
+                           
+
+                        </div>
+
+                        <div class="produto-resumo">
+
+                            <div class="texto-resumo">
+
+                                <h12>Valor total</h12>
+                                
+
+                            </div>
+
+                            <h12 style="color: purple;margin-left: 50px;margin-bottom: 20px;">R$ 1.800,00</h12>
+                           
+
+                        </div>
+
+                        <h13>Em até 5x de R$ 360 sem juros</h13>
+                        <a href="https://www.instagram.com/sneakersmb_/?utm_medium=copy_link"><button class="continuar" style="background-color: grey;">CONTINUAR</button></a>
+                        <button class="continuar">ESCOLHA MAIS PRODUTOS</button>
+
+                    </div>
+
+                    
+
+                </section>
+
+        </main>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+
+            <div class="footer-alinhamento">
+
+                <div class="footer-contato">
+
+
+
+                    <div class="primeiro-ul-footer">
+                        <ul class="ul-footer">
+                            <h3>MB</h3>
+                            <a href="">
+                                <li>Nossa História</li>
+                            </a>
+                            <a href="">
+                                <li>MB São Paulo</li>
+                            </a>
+                            <a href="">
+                                <li>MB Series</li>
+                            </a>
+                            <a href="">
+                                <li>Isso é MB Sneakers</li>
+                            </a>
+                            <a href="">
+                                <li>Política de Privacidade</li>
+                            </a>
+                            <a href="">
+                                <li>Termos de Uso</li>
+                            </a>
+
+                        </ul>
+                    </div>
+
+                    <div class="ajuda-e-suporte">
+
+                        <ul class="ul-footer">
+                            <h6>AJUDA E SUPORTE</h6>
+                            <a href="">
+                                <li>Central de Atendimento</li>
+                            </a>
+                            <a href="">
+                                <li>Formas de Pagamento</li>
+                            </a>
+                            <a href="">
+                                <li>Formas de Entrega</li>
+                            </a>
+                            <a href="">
+                                <li>Trocas e Devoluções</li>
+                            </a>
+                            <a href="">
+                                <li>Chat Online</li>
+                            </a>
+                            <a href="">
+                                <li>Atendimento em Libras</li>
+                            </a>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="localizacao">
+
+                        <h8>FAÇA PARTE DA FAMÍLIA</h8>
+                        <p id="paragrafo-footer">Inscreva-se em nossa newsletter para saber dos lançamentos e promoções
+                            antes de todo mundo!</p>
+
+                        <input type="email" placeholder="E-mail" id="email">
+                        <button id="botao-enviar-footer">Enviar</button>
+
+                        <h4>LOCALIZADOR DE LOJAS</h4>
+                        <p id="paragrafo-footer">Encontre a loja mais próxima de você</p>
+                        <button id="botao-enviar-footer">BUSCAR LOJAS</button>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="redes-sociais">
+
+                <h5>SIGA A MB</h5>
+
+                <ul class="icones-redes-sociais">
+
+                    <a href="">
+                        <li><i class="fab fa-facebook-square"></i></li>
+                    </a>
+                    <a href="">
+                        <li><i class="fab fa-youtube"></i></i></li>
+                    </a>
+                    <a href="">
+                        <li><i class="fab fa-instagram-square"></i></i></li>
+                    </a>
+                    <a href="">
+                        <li><i class="fab fa-pinterest-square"></i></li>
+                    </a>
+                    <a href="">
+                        <li><i class="fab fa-twitter-square"></i></li>
+                    </a>
+
+                </ul>
+
+                <p id="paragrafo-footer-redes-sociais"> © MB Sneakers, A MB Company. Brasil, São Paulo Transparency
+                    fornecido em 2021. Empresa MB
+                    <br>Comércio de Consoles e acessorios Ltda. | Rod Governador Mario Covas, 3255, Armz 01 Sala 210.
+                    Bairro Padre Don Pedro, Cariacica. ES CEP: 29157-100 | CNPJ: 07.900.987/1894-54 | (11) 4002-8922
+                </p> -->
+
+
+            </div>
+        </footer>
+
+
+        <!-- FIM DO FOOTER -->
+
+        <!-- SCRIPTS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+            crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="public/js/script.js"></script>
+        <!-- FIM SCRIPTS -->
+
+    </body>

@@ -1,0 +1,102 @@
+ /* GERAL */
+ *{margin: 0;padding: 0;font-size: 100%;outline: none;font-weight: 300;box-sizing: border-box; font-family: 'Merriweather Sans', sans-serif;border: none;
+    text-decoration: none;list-style: none;}
+ a{text-decoration: none;}
+ img{max-width: 100%;}
+ul{margin: 0;}
+ 
+ /* HEADER */
+ header{min-height: 75px;width: 100%;border-bottom: 1px solid black;display: flex;justify-content: center;align-items: center;padding: 10px;}
+ .menu{width: 90%;height: 65px;display: flex;align-items: center;justify-content: space-between;}
+
+ /* MENU */
+ .logo img{width: 100px;}
+ .botaoMenu{display: none;}
+ .pesquisaMobile{display: none;}
+.logoMobile{display: none;}
+.venda-menu{display: flex;justify-content: space-between;align-items: center;margin: 0;}
+
+.search{display: flex;justify-content: space-between;align-items: center;width: 30%;}  
+.input-group{width: 100%;padding: 10px}
+#pesquisa::placeholder{padding: 5px;font-size: 1em;}
+#pesquisa{height: 40px;}
+.btn{background-color: rgba(0,0,0,0.7);}
+
+ .icons img{width: 35px;}
+ #icone-menu{margin-right: 15px;font-size: 20px;cursor: pointer;}
+
+ /* SEGUNDO MENU */
+ .segundoMenu{width: 100%;background-color: rgba(0,0,0,0.7);border-bottom: 1px solid black;height: 45px;display: flex;justify-content: center;margin-left: 0;align-items: center;}
+ .segundoMenuLargura{width: 980px;display: flex;justify-content: space-between;align-items: center;color: white;font-weight: bold;}
+ h1{font-size: 1em;font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+ margin-bottom: 0;margin-right: 20px;}
+ h1:hover{color: skyblue;cursor: pointer;}
+ li{border:none;padding: 0px;color: white;text-align: center;}
+ li:hover{color: skyblue;}
+
+ /* SubMenus */
+ .alinhar{width: 100%;margin-top: 29px;background-color: rgba(0,0,0,0.7);margin-bottom: 0;border-bottom: 1px solid black;float: left;border-top: 1px solid black;border-left: 1px solid black;}
+ .alinhar li{padding: 8px;color: white;text-align: left;width: 90%;margin-left: 5%;}
+
+ .sub-menu{visibility: hidden;opacity: 0;position: absolute;transition: all 0.5s ease;
+   margin-top: 105px;display: none;top: 0;min-height: 250px;width: 250px;transform: translateX(-100px);border-radius: 50000px;z-index: 1;}
+
+ li:hover .sub-menu, li ul:hover{visibility: visible;opacity: 1;display: block;}
+
+ #botao-seta{color: white;margin-left: 7px;}
+
+ main{width: 95%;margin: 0 auto;}
+
+ .login{width: 80%;min-height: 200px;margin: 0 auto;margin-top: 50px;margin-bottom: 50px;display: flex;justify-content: space-between;}
+ .criar-conta{min-height: 150px;width: 100%;}
+ .conta{min-height: 150px;width: 100%;border-right: 1px solid black;padding: 20px;}
+h10{font-size: 1.4em;font-weight: bold;color: purple;}
+.titulo-conta{width: 100%;margin-bottom: 30px;}
+h11{font-size: 1em;}
+label{margin-top: 10px;}
+
+a{color: black;}
+
+ #email2{width: 100%;border: 1px solid black;margin-top: 5px;padding: 10px;border-radius: 5px;}
+
+.esqueci{margin-top: 20px;color: grey;text-decoration: underline;}
+ #email3{width: 100%;border: 1px solid black;margin-top: 58px;padding: 10px;border-radius: 5px;}
+ .criar-conta{margin-left: 20px;padding: 20px;}
+ .acessar-conta{width: 100%;background-color: purple;font-weight: bold; color: white;margin-top: 20px;padding: 5px;}
+
+ h13{color: grey;display: flex;justify-content: center;}
+
+ .facebook{margin-bottom: 50px;margin-top: 50px;display: flex;align-items: center;padding: 10px;border: 1px solid grey;width: 20%;margin: 20px auto;justify-content: center;}
+ .facebook img{width: 30px;}
+
+/* FOOTER */
+
+footer{width: 100%;min-height: 520px;background-color: #1c1c1c;z-index: 0;}
+.footer-alinhamento{display: flex;justify-content: center;}
+
+.footer-contato{width: 90%;height: 300px;display: flex;justify-content: space-between;margin-top: 30px;}
+
+.ul-footer li{color: skyblue;font-weight: bold;padding: 5px;font-size:14px;margin: 0;}
+
+h3{color: white;font-weight: bold;font-size: 1.4em;text-align: center;padding: 5px;}
+
+#paragrafo-footer{max-width: 400px;font-size: 13px;color: white;}
+
+#email{width: 300px;background-color: rgba(0,0,0,0.5);padding: 5px;}
+#botao-enviar-footer{background-color: transparent;padding: 5px;border: 1px solid white;width: 150px;color: white;}
+
+h4{color: white;font-weight: bold;font-size: 1.1em;text-align: left;margin-top: 30px;}
+
+.redes-sociais{width: 90%;min-height: 100px;margin-top: 10px;margin-left: 5%;}
+.icones-redes-sociais{display: flex;justify-content: center;width: auto;}
+.icones-redes-sociais li{color: black;width: auto;display: inline;padding: 5px;font-size: 20px;background-color: grey;margin-right: 5px;}
+
+h5{color: white;font-weight: bold;font-size: 1.1em;text-align: center;margin-bottom: 20px;}
+
+#paragrafo-footer-redes-sociais{font-size: 13px;color: white;text-align: center;margin-top: 40px;}
+
+         /* FIM DO FOOTER */
+
+
+
+
